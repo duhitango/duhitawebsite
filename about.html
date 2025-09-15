@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Duhita</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
-        <a href="index.html" class="logo">duhita.</a>
-        <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="about.html" class="active">about us</a>
-            <a href="#">projects</a>
-            <a href="#">donate</a>
-            <a href="#">join us</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand logo">duhita.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link active">about us</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">projects</a></li>
+                        <li class="nav-item"><a href="donate.html" class="nav-link">donate</a></li>
+                        <li class="nav-item"><a href="join-us.html" class="nav-link">join us</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -24,18 +37,49 @@
         <div class="about-content">
             <h1>About Duhita</h1>
             <p>Duhita is a non-governmental organization dedicated to empowering women and nurturing futures in North Bengal. Our mission is to provide support, education, and opportunities to women and children in tea gardens and red-light areas of Siliguri.</p>
-            <p>Founded in [year], Duhita has been working tirelessly to create positive change in our community. Our team of dedicated volunteers and professionals work together to implement various programs and initiatives aimed at improving the lives of those we serve.</p>
+            <p>Founded in 2020, Duhita has been working tirelessly to create positive change in our community. Our team of dedicated volunteers and professionals work together to implement various programs and initiatives aimed at improving the lives of those we serve.</p>
             <h2>Our Vision</h2>
             <p>A world where every woman and child has the opportunity to thrive, regardless of their circumstances.</p>
             <h2>Our Mission</h2>
             <p>To empower women and children through education, skill development, and support services, creating a pathway to a brighter future.</p>
+            <h2>Our Programs</h2>
+            <ul>
+                <li>Education support for children in tea gardens</li>
+                <li>Skill development workshops for women</li>
+                <li>Healthcare access and awareness campaigns</li>
+                <li>Community outreach and empowerment initiatives</li>
+            </ul>
+            <h2>Impact</h2>
+            <p>Since our inception, we have helped over 500 women gain employment through our skill training programs and provided educational support to more than 1000 children in underserved communities.</p>
         </div>
     </section>
 
-    <div class="home-sci">
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-        <a href="#"><i class='bx bxl-instagram' ></i></a>
-        <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@duhita.ngo<br>Phone: +91-123-456-7890<br>Address: Siliguri, North Bengal</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Duhita NGO. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
